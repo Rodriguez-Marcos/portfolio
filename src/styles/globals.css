@@ -5,7 +5,9 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
+body::-webkit-scrollbar {
+  display: none;
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -33,9 +35,9 @@ a {
   animation-direction: reverse;
 }
 
-.htmlicon , .typescripticon, .nodejicon{
+.htmlicon , .typescripticon, .nodejicon, .nextjicon{
   animation-name: iconanimation;
-  animation-duration: 8s;
+  animation-duration: 6s;
   animation-timing-function: linear;
   animation-direction: normal;
   animation-iteration-count: infinite;
