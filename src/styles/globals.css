@@ -22,5 +22,34 @@ a {
 
 .iconcontainer img {
   width: 5%;
-  margin: 10px
+  margin: 10px;
+}
+
+.javascripticon, .cssicon, .reacticon, .postgresqlicon {
+  animation-name: iconanimation;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+
+.htmlicon , .typescripticon, .nodejicon{
+  animation-name: iconanimation;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+}
+
+@keyframes iconanimation {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(-10px)
+  }
 }
