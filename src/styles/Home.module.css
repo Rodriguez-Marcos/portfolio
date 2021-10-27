@@ -1,0 +1,123 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(39, 22, 85);
+  background-image: radial-gradient(white, rgba(255, 255, 255, .2) 2px, transparent 40px), radial-gradient(white, rgba(255, 255, 255, .15) 1px, transparent 30px), radial-gradient(white, rgba(255, 255, 255, .1) 2px, transparent 40px), radial-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .1) 2px, transparent 30px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+.atrosContainer {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: #000;
+  background: rgb(151, 79, 195);
+  background: radial-gradient(circle, rgba(151, 79, 195, 1) 0%, rgba(10, 13, 32, 1) 100%);
+}
+
+.atropos {
+  width: 70vw;
+  height: 90vh;
+  z-index: 10;
+}
+
+.fondo {
+  width: 120vw;
+  height: auto;
+  position: absolute;
+  top: -20vh;
+  left: -20vw;
+  overflow: hidden;
+}
+
+.nuber {
+  width: 30%;
+  height: auto;
+  left: 76%;
+  bottom: -12%;
+  position: absolute;
+}
+
+.nubel {
+  width: 30%;
+  height: auto;
+  left: -5%;
+  bottom: -12%;
+  position: absolute;
+}
+
+.planetauno {
+  width: 140%;
+  height: auto;
+  position: absolute;
+  left: -20%;
+  bottom: -40%;
+  overflow: hidden;
+}
+
+.planeta {
+  width: 15%;
+  bottom: 20%;
+  left: 15%;
+  position: absolute;
+}
+
+.planetados {
+  width: 10%;
+  bottom: 30%;
+  right: 13%;
+  position: absolute;
+}
+
+.planetatres {
+  width: 15%;
+  top: 22%;
+  left: -6%;
+  position: absolute;
+}
+
+.planetacuatro {
+  width: 15%;
+  top: 16%;
+  right: -5%;
+  position: absolute;
+}
+
+.planetacinco {
+  width: 4%;
+  top: 13%;
+  right: 12%;
+  position: absolute;
+}
+
+.planetaseis {
+  width: 4%;
+  top: 10%;
+  left: 12%;
+  position: absolute;
+}
+
+.main {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  z-index: 2;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 0px 10px #000;
+}

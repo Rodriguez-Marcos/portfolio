@@ -14,3 +14,13 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.iconcontainer {
+  text-align: center;
+  height: 70%;
+}
+
+.iconcontainer img {
+  width: 5%;
+  margin: 10px
+}
