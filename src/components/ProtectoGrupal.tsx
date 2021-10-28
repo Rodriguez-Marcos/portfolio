@@ -33,7 +33,7 @@ export default function ProtectoGrupal(props: Props): JSX.Element {
               className={styles2.imgNave}
             />
             <h1 data-atropos-offset="-7" className={styles2.title}>
-              E-comerce "Salvatore Dietetica"
+              E-comerce &quot;Salvatore Dietetica&quot;
             </h1>
             <a
               target="_blank"
