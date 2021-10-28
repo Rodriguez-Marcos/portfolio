@@ -56,13 +56,13 @@ export default function Nave(props: Props): JSX.Element {
             Informacion de contacto
           </h1>
            <div data-atropos-offset="7" className={styles.iconcontainer}>
-            <a target="_blank" href="mailto:rodriguezzmarcos99@gmail.com">
+            <a target="_blank" rel="noopener noreferrer" href="mailto:rodriguezzmarcos99@gmail.com">
                 <img  src={gmail.src} className={styles.gmail} alt="gmail" />
             </a>
-            <a target="_blank" href="https://www.linkedin.com/in/marcos--rodriguez/">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/marcos--rodriguez/">
                 <img  src={linkedin.src} alt="linkedin" className={styles.linkedin}/>
             </a>
-            <a href="https://github.com/Rodriguez-Marcos" target="_blank">
+            <a rel="noopener noreferrer" href="https://github.com/Rodriguez-Marcos" target="_blank">
                 <img  src={github.src} alt="github" className={styles.github}/>
             </a>
             </div>

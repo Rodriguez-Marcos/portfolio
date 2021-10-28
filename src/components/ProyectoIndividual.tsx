@@ -10,7 +10,7 @@ export default function ProtectoIndividual(props: Props): JSX.Element {
   return (
     <a
       target="_blank"
-      href="https://app-comidas-18fs5zoc6-pi-food-marcos-rodriguez.vercel.app/"
+      rel="noopener noreferrer" href="https://app-comidas-18fs5zoc6-pi-food-marcos-rodriguez.vercel.app/"
     >
       <div
         className={
@@ -40,7 +40,7 @@ export default function ProtectoIndividual(props: Props): JSX.Element {
             </h1>
             <a
               target="_blank"
-              href="https://github.com/Rodriguez-Marcos/PI-Food-main"
+              rel="noopener noreferrer" href="https://github.com/Rodriguez-Marcos/PI-Food-main"
             >
               <img
                 src={github.src}

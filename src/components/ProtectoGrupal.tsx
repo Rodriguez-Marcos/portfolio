@@ -8,7 +8,7 @@ import github from "../icons/github.svg";
 export default function ProtectoGrupal(props: Props): JSX.Element {
   let isVisibleEl = props.isVisible || false;
   return (
-    <a target="_blank" href="https://ecommerce-dietetica.vercel.app/">
+    <a target="_blank" rel="noopener noreferrer" href="https://ecommerce-dietetica.vercel.app/">
       <div
         className={
           isVisibleEl
@@ -37,7 +37,7 @@ export default function ProtectoGrupal(props: Props): JSX.Element {
             </h1>
             <a
               target="_blank"
-              href="https://github.com/Rodriguez-Marcos/ecommerce-dietetica"
+              rel="noopener noreferrer" href="https://github.com/Rodriguez-Marcos/ecommerce-dietetica"
             >
               <img
                 src={github.src}
