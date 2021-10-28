@@ -67,10 +67,14 @@
   width: 7%;
   margin: 37px;
   shape-outside: margin-box;
-  filter: drop-shadow(-3px 8px 2px rgb(0 0 0 / 0.7));
+  filter: drop-shadow(-3px 8px 2px rgb(0 0 0 / 2));
 }
 .gmail {
   width: 12%!important;
+}
+.github {
+  filter:brightness(0)!important;
+  
 }
 
 @keyframes irse {
