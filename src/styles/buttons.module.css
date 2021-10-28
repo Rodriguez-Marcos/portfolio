@@ -8,7 +8,7 @@
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #4caf4f87;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -19,9 +19,10 @@
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
+    filter: brightness(2);
 }
 .inactive {
-    background-color: #39793b;
+    background-color: #39793b7e;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -35,5 +36,5 @@
 }
 
 .active:hover, .inactive:hover {
-    background-color: #4ba34e;
+    background-color: #4ba34e72;
 }
