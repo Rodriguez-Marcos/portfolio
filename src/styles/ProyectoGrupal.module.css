@@ -1,0 +1,63 @@
+.imgNave {
+  width: 285%;
+  top: -92%;
+  left: -93%;
+  overflow: hidden;
+  position: absolute;
+}
+.imgFondoNave {
+  width: 130%;
+  position: absolute;
+  top: -15%;
+  left: -15%;
+  z-index: -1;
+}
+
+.title {
+  font-size: 2.5vw;
+  font-weight: bold;
+  color: #000000;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+.irse {
+  animation-name: irse;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes irse {
+  0% {
+  }
+  99% {
+    left: -200%;
+  }
+  100% {
+    display: none;
+    left: -200%;
+  }
+}
+
+.venir {
+  animation-name: venir;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes venir {
+  0% {
+    left: -200%;
+  }
+  100% {
+  }
+}
+
+.imgGithub {
+  position: relative;
+  width: 7%;
+  margin: 37px;
+  bottom: -61%;
+  right: 43%;
+  shape-outside: margin-box;
+  filter: drop-shadow(-3px 8px 2px rgb(0 0 0 / 0.7));
+}

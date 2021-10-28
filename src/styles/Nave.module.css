@@ -19,6 +19,7 @@
   font-size: 2.5vw;
   font-weight: bold;
   color: #f5f5f5;
+  text-shadow: 1px 2px 3px rgb(5, 5, 5);
 }
 
 .imgNave {
@@ -31,39 +32,68 @@
 
 .imgFondoNave {
   width: 140%;
-  top: 0%;
+  top: -10%;
   left: -15%;
   overflow: hidden;
   position: absolute;
 }
-
+.planeta {
+  position: absolute;
+  top: 5%;
+  right: -27%;
+}
+.planeta1 {
+  position: absolute;
+  top: 20%;
+  right: 40%;
+}
+.planeta2 {
+  position: absolute;
+  top: 20%;
+  right: 60%;
+}
 .irse {
-    animation-name: irse;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
+  animation-name: irse;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+.iconcontainer {
+  text-align: center;
+  height: 70%;
+}
+
+
+.iconcontainer img {
+  width: 7%;
+  margin: 37px;
+  shape-outside: margin-box;
+  filter: drop-shadow(-3px 8px 2px rgb(0 0 0 / 0.7));
+}
+.gmail {
+  width: 12%!important;
 }
 
 @keyframes irse {
   0% {
   }
   99% {
-    left: -200%;
+    top:  200%;
   }
   100% {
-      display: none;
-      left: -200%;
+    display: none;
+    top:  200%;
   }
 }
 
-.venir{
-    animation-name: venir;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
+.venir {
+  animation-name: venir;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes venir {
   0% {
-    left: -200%;
+    top:  200%;
   }
   100% {
   }
