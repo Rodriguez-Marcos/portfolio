@@ -26,7 +26,7 @@ const Home: NextPage = () => {
               setNave(1);
             }}
           >
-            ir al inicio
+            Ir al inicio
           </button>
           <button
             className={nave === 2 ? bStyles.active : bStyles.inactive}
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
               setNave(2);
             }}
           >
-            ir al proyecto individual
+            Proyecto PI Food
           </button>
           <button
             className={nave === 3 ? bStyles.active : bStyles.inactive}
@@ -42,7 +42,7 @@ const Home: NextPage = () => {
               setNave(3);
             }}
           >
-            ir al proyecto grupal
+            Proyecto Salvatore Dietetica
           </button>
           <button
             className={nave === 4 ? bStyles.active : bStyles.inactive}
