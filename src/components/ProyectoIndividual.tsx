@@ -10,7 +10,7 @@ export default function ProtectoIndividual(props: Props): JSX.Element {
   return (
     <a
       target="_blank"
-      rel="noopener noreferrer" href="https://app-comidas-18fs5zoc6-pi-food-marcos-rodriguez.vercel.app/"
+      rel="noopener noreferrer" href="https://pi-food-main.vercel.app/"
     >
       <div
         className={
